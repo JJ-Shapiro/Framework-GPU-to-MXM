@@ -10,3 +10,5 @@ The Framework 16's Expansion bay can't support the size of an MXM module by defa
 <img width="781" height="669" alt="Screenshot 2025-08-20 at 21 07 18" src="https://github.com/user-attachments/assets/bb69a189-82c0-4235-b8ed-31b190684c15" />
 
 <img width="2358" height="1672" alt="SCH_Schematic1_1-P1_2025-08-19" src="https://github.com/user-attachments/assets/5407c1ed-1a79-4e4c-a8a6-36afd32b0b76" />
+*Disclaimer*
+I am not the legal owner of the datasheet describing the footprint of an MXM connector. It is in this repository strictly as a helpful reference for anyone who might desire to use or cross reference it. I will of course remove it at the request of the author. 
