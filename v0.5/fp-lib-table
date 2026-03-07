@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "FrameworkGPU to MXM v0.34")(type "KiCad")(uri "$(KIPRJMOD)/FrameworkGPU to MXM v0.34.pretty")(options "")(descr ""))
+)
