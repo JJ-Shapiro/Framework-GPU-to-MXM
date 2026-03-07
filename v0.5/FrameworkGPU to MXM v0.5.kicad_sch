@@ -11512,16 +11512,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 130.81) (xy 227.33 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "644673c2-539c-45b5-af5e-6dcec551430f")
-	)
-	(wire
-		(pts
 			(xy 221.0335 293.37) (xy 222.25 293.37)
 		)
 		(stroke
@@ -12859,6 +12849,16 @@
 			(type default)
 		)
 		(uuid "f798be28-5ebc-4ca9-bd60-ff6fffae69b8")
+	)
+	(wire
+		(pts
+			(xy 218.44 130.81) (xy 227.33 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91e49df-ddff-4cad-be03-58ff80ed0b75")
 	)
 	(wire
 		(pts
@@ -26843,7 +26843,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "f4de43b0-7bd3-40d3-805f-bcb85f355bae")
 		(property "Reference" "R16"
