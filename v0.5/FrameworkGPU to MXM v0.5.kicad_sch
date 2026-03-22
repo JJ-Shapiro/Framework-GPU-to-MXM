@@ -9571,7 +9571,7 @@
 	)
 	(text "0 ohm\n"
 		(exclude_from_sim no)
-		(at 216.662 364.49 0)
+		(at 206.502 364.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9715,7 +9715,7 @@
 		(uuid "2a24f2dc-93d9-4876-9b1e-b6efbd51ca82")
 	)
 	(junction
-		(at 209.55 367.03)
+		(at 223.52 367.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a9c2f52-c122-4cbb-aa52-bd775e1df922")
@@ -9769,7 +9769,7 @@
 		(uuid "4cd66300-cbf1-4513-a5c9-73e341751ad3")
 	)
 	(junction
-		(at 209.55 379.73)
+		(at 223.52 379.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fcb58c5-7ff5-44aa-97c5-ba53bb7065c5")
@@ -9877,7 +9877,7 @@
 		(uuid "6fd42f10-8051-4e24-98ce-b1a913ac1600")
 	)
 	(junction
-		(at 207.0037 382.27)
+		(at 220.9737 382.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71ff4877-3d09-4557-afba-0299c936d1a9")
@@ -9925,7 +9925,7 @@
 		(uuid "7f61de02-3cc2-49a8-8e33-10ee5b9048b7")
 	)
 	(junction
-		(at 206.9247 369.57)
+		(at 220.8947 369.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8012c83f-1798-4ff7-9abe-198cf4c29335")
@@ -9979,7 +9979,7 @@
 		(uuid "9704b446-1f98-4c68-a597-536f7c84d84e")
 	)
 	(junction
-		(at 201.93 374.65)
+		(at 215.9 374.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "984b060e-cc42-44ff-9962-f045ea39bab1")
@@ -10033,7 +10033,7 @@
 		(uuid "aab56b3a-72af-484f-b0ff-480d69f2a99f")
 	)
 	(junction
-		(at 199.2619 377.19)
+		(at 213.2319 377.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab526f9b-6df8-4abc-a867-48fad20f5903")
@@ -10051,7 +10051,7 @@
 		(uuid "adf88ffd-11ab-409c-8a73-6cfbcbaf4c16")
 	)
 	(junction
-		(at 204.47 372.11)
+		(at 218.44 372.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae213343-0994-4862-be30-0c03473ebacb")
@@ -10075,7 +10075,7 @@
 		(uuid "b125eaa8-1f66-4745-afc4-e66abf16f5db")
 	)
 	(junction
-		(at 204.47 384.81)
+		(at 218.44 384.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b454e6a5-0796-47c9-803b-6edcdf41ac9e")
@@ -10372,6 +10372,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 374.65) (xy 227.33 374.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e7c482-7bfb-4030-a881-2eab5f7baf67")
+	)
+	(wire
+		(pts
 			(xy 222.25 247.65) (xy 227.33 247.65)
 		)
 		(stroke
@@ -10532,7 +10542,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 377.19) (xy 199.2619 377.19)
+			(xy 196.85 377.19) (xy 201.93 377.19)
 		)
 		(stroke
 			(width 0)
@@ -10562,7 +10572,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 374.65) (xy 201.93 374.65)
+			(xy 196.85 374.65) (xy 201.93 374.65)
 		)
 		(stroke
 			(width 0)
@@ -10762,16 +10772,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 379.73) (xy 227.33 379.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2296e067-47c7-4dde-8a8f-3d6bd63a8291")
-	)
-	(wire
-		(pts
 			(xy 226.06 158.75) (xy 227.33 158.75)
 		)
 		(stroke
@@ -10802,7 +10802,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 372.11) (xy 204.47 372.11)
+			(xy 196.85 372.11) (xy 201.93 372.11)
 		)
 		(stroke
 			(width 0)
@@ -10912,7 +10912,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 382.27) (xy 207.0037 382.27)
+			(xy 196.85 382.27) (xy 201.93 382.27)
 		)
 		(stroke
 			(width 0)
@@ -10969,6 +10969,16 @@
 			(type default)
 		)
 		(uuid "328b3947-7e4f-49d7-984a-1b9430027558")
+	)
+	(wire
+		(pts
+			(xy 212.09 377.19) (xy 213.2319 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f3e91f-3227-4a05-8b61-ea2c8ad644c6")
 	)
 	(wire
 		(pts
@@ -11092,16 +11102,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 374.65) (xy 212.09 374.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c9e4ab3-a028-40e8-b49d-72de8e502be8")
-	)
-	(wire
-		(pts
 			(xy 74.93 180.34) (xy 74.93 182.88)
 		)
 		(stroke
@@ -11132,16 +11132,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 372.11) (xy 227.33 372.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f8307d8-29d6-450e-9f7d-a8a7bac0d1ac")
-	)
-	(wire
-		(pts
 			(xy 218.44 140.97) (xy 227.33 140.97)
 		)
 		(stroke
@@ -11159,16 +11149,6 @@
 			(type default)
 		)
 		(uuid "3fbf3cc7-98e2-44bd-b44c-659e924f1188")
-	)
-	(wire
-		(pts
-			(xy 199.2619 377.19) (xy 212.09 377.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40a03c48-bfe1-4fec-9d93-844aa2288816")
 	)
 	(wire
 		(pts
@@ -11512,6 +11492,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.2319 377.19) (xy 227.33 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6361c825-9a54-4ea2-9592-df11b697e6ca")
+	)
+	(wire
+		(pts
 			(xy 221.0335 293.37) (xy 222.25 293.37)
 		)
 		(stroke
@@ -11549,6 +11539,16 @@
 			(type default)
 		)
 		(uuid "65aee180-d8c1-4637-b922-35b37fc52c02")
+	)
+	(wire
+		(pts
+			(xy 218.44 372.11) (xy 227.33 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6684acf7-aba1-4281-9a21-d69394e96783")
 	)
 	(wire
 		(pts
@@ -11592,16 +11592,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 367.03) (xy 227.33 367.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d8591a3-2c3b-4118-af92-7097e240654d")
-	)
-	(wire
-		(pts
 			(xy 106.68 67.31) (xy 110.49 67.31)
 		)
 		(stroke
@@ -11622,7 +11612,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 379.73) (xy 209.55 379.73)
+			(xy 196.85 379.73) (xy 201.93 379.73)
 		)
 		(stroke
 			(width 0)
@@ -11709,6 +11699,16 @@
 			(type default)
 		)
 		(uuid "77d69cc9-088f-45f1-adf9-2acaf6373d13")
+	)
+	(wire
+		(pts
+			(xy 212.09 367.03) (xy 223.52 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7869afd0-ad04-4be3-b026-b9cc48fa1d3b")
 	)
 	(wire
 		(pts
@@ -11812,16 +11812,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 384.81) (xy 227.33 384.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82a7b698-2faf-4f0a-8302-9e40c61f9086")
-	)
-	(wire
-		(pts
 			(xy 218.44 161.29) (xy 227.33 161.29)
 		)
 		(stroke
@@ -11839,16 +11829,6 @@
 			(type default)
 		)
 		(uuid "86ea2d09-1c89-48c6-b324-0d2432a51162")
-	)
-	(wire
-		(pts
-			(xy 209.55 379.73) (xy 212.09 379.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c26cbdd-e9d1-44ff-ba81-df8b9ae56b02")
 	)
 	(wire
 		(pts
@@ -11922,13 +11902,13 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 367.03) (xy 212.09 367.03)
+			(xy 218.44 384.81) (xy 227.33 384.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9694e387-eb53-44cb-8315-9bef8ac227f5")
+		(uuid "9630d403-7000-4b6e-82fb-e3afc1f5e7d9")
 	)
 	(wire
 		(pts
@@ -12092,13 +12072,23 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 377.19) (xy 227.33 377.19)
+			(xy 223.52 379.73) (xy 227.33 379.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a85d3e8f-e9cb-478f-884b-0bf018bf110c")
+		(uuid "a8d0156e-a01b-43b8-a80b-e7e87f254066")
+	)
+	(wire
+		(pts
+			(xy 212.09 384.81) (xy 218.44 384.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9bb29ee-4b89-4564-8919-6d043e2ca5c1")
 	)
 	(wire
 		(pts
@@ -12162,7 +12152,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 367.03) (xy 209.55 367.03)
+			(xy 196.85 367.03) (xy 201.93 367.03)
 		)
 		(stroke
 			(width 0)
@@ -12179,6 +12169,16 @@
 			(type default)
 		)
 		(uuid "b34fdcc8-c573-4d28-8b02-34dd0d4d467e")
+	)
+	(wire
+		(pts
+			(xy 220.8947 369.57) (xy 227.33 369.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ee256a-0b1f-4b91-a5a2-7e7e124f0fdb")
 	)
 	(wire
 		(pts
@@ -12232,6 +12232,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 382.27) (xy 220.9737 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b76fe55b-d6a5-4cdc-a5d3-6b3d13e87bd3")
+	)
+	(wire
+		(pts
 			(xy 74.93 147.32) (xy 76.2 147.32)
 		)
 		(stroke
@@ -12249,16 +12259,6 @@
 			(type default)
 		)
 		(uuid "b98086b9-d119-4de3-b3d3-a2871341f004")
-	)
-	(wire
-		(pts
-			(xy 222.25 374.65) (xy 227.33 374.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba17352c-db9b-4385-afee-0b8dbb378f3f")
 	)
 	(wire
 		(pts
@@ -12392,6 +12392,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 367.03) (xy 227.33 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8dc261a-d815-440c-8f61-65d2b0763b73")
+	)
+	(wire
+		(pts
 			(xy 115.57 342.9) (xy 127 342.9)
 		)
 		(stroke
@@ -12432,6 +12442,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.9737 382.27) (xy 227.33 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caba289f-dffd-4d9a-b7e7-7607fa07c713")
+	)
+	(wire
+		(pts
 			(xy 247.65 82.55) (xy 247.65 87.63)
 		)
 		(stroke
@@ -12439,6 +12459,16 @@
 			(type default)
 		)
 		(uuid "caf159b1-d4c6-4352-97db-bc4b3ecd34b3")
+	)
+	(wire
+		(pts
+			(xy 212.09 374.65) (xy 215.9 374.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb251cc8-8ea2-4547-96fa-a7c13c1112ae")
 	)
 	(wire
 		(pts
@@ -12459,6 +12489,16 @@
 			(type default)
 		)
 		(uuid "ce940c1f-b4f5-4d76-a0bf-bcdf87a20f1b")
+	)
+	(wire
+		(pts
+			(xy 212.09 369.57) (xy 220.8947 369.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d035d1a5-507f-4d9c-b554-3fd94fb4dffc")
 	)
 	(wire
 		(pts
@@ -12502,6 +12542,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 379.73) (xy 223.52 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44d47f4-0533-4c82-b8b9-510a36810903")
+	)
+	(wire
+		(pts
 			(xy 74.93 231.14) (xy 74.93 233.68)
 		)
 		(stroke
@@ -12532,16 +12582,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 384.81) (xy 212.09 384.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da011107-ce8a-4761-a1bd-e2bf1f1f2bdb")
-	)
-	(wire
-		(pts
 			(xy 39.37 241.3) (xy 39.37 243.84)
 		)
 		(stroke
@@ -12562,16 +12602,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.0037 382.27) (xy 212.09 382.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd9ab764-4dce-4504-8ff8-e2778e0cd215")
-	)
-	(wire
-		(pts
 			(xy 96.52 340.36) (xy 74.93 340.36)
 		)
 		(stroke
@@ -12579,16 +12609,6 @@
 			(type default)
 		)
 		(uuid "debfe71f-da75-4a51-90ed-59eefd36fabf")
-	)
-	(wire
-		(pts
-			(xy 222.25 369.57) (xy 227.33 369.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dec50bac-bb39-4d33-9661-74d34ef96f4d")
 	)
 	(wire
 		(pts
@@ -12662,23 +12682,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 369.57) (xy 206.9247 369.57)
+			(xy 196.85 369.57) (xy 201.93 369.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e93d3091-c111-44d3-81fe-0026a2b1c964")
-	)
-	(wire
-		(pts
-			(xy 204.47 372.11) (xy 212.09 372.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea99c09f-84eb-455a-bb29-f54382016efd")
 	)
 	(wire
 		(pts
@@ -12812,17 +12822,7 @@
 	)
 	(wire
 		(pts
-			(xy 206.9247 369.57) (xy 212.09 369.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2dee70f-ba73-4fac-818b-a41cce9bf819")
-	)
-	(wire
-		(pts
-			(xy 193.04 384.81) (xy 204.47 384.81)
+			(xy 196.85 384.81) (xy 201.93 384.81)
 		)
 		(stroke
 			(width 0)
@@ -12849,6 +12849,16 @@
 			(type default)
 		)
 		(uuid "f798be28-5ebc-4ca9-bd60-ff6fffae69b8")
+	)
+	(wire
+		(pts
+			(xy 212.09 372.11) (xy 218.44 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f83629d1-c3bc-43d8-9f9b-8d4f4c530952")
 	)
 	(wire
 		(pts
@@ -12899,16 +12909,6 @@
 			(type default)
 		)
 		(uuid "f9ee178d-ce9c-4210-9148-b7cb0a0ae502")
-	)
-	(wire
-		(pts
-			(xy 222.25 382.27) (xy 227.33 382.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb000dfd-7b77-414c-ad3a-7b79978b8ec9")
 	)
 	(wire
 		(pts
@@ -13961,7 +13961,7 @@
 	)
 	(global_label "TH_OVERT"
 		(shape bidirectional)
-		(at 193.04 372.11 180)
+		(at 196.85 372.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13970,7 +13970,7 @@
 		)
 		(uuid "12b957da-f91b-4d5d-a495-b05f4ab207fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 372.11 0)
+			(at 196.85 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14021,7 +14021,7 @@
 	)
 	(global_label "PWR_LEVEL"
 		(shape bidirectional)
-		(at 193.04 379.73 180)
+		(at 196.85 379.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14030,7 +14030,7 @@
 		)
 		(uuid "1a7c4640-cb11-4625-87c7-08eae2f60a93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 379.73 0)
+			(at 196.85 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14397,7 +14397,7 @@
 	)
 	(global_label "TH_ALERT"
 		(shape bidirectional)
-		(at 193.04 374.65 180)
+		(at 196.85 374.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14406,7 +14406,7 @@
 		)
 		(uuid "43e53387-a3f2-400d-b7af-76670356d6fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 374.65 0)
+			(at 196.85 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14919,7 +14919,7 @@
 	)
 	(global_label "SMB_DAT"
 		(shape bidirectional)
-		(at 193.04 367.03 180)
+		(at 196.85 367.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14928,7 +14928,7 @@
 		)
 		(uuid "6327cd1b-4280-4928-b880-ad645d8c28f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 367.03 0)
+			(at 196.85 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15895,7 +15895,7 @@
 	)
 	(global_label "SMB_CLK"
 		(shape bidirectional)
-		(at 193.04 369.57 180)
+		(at 196.85 369.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15904,7 +15904,7 @@
 		)
 		(uuid "b64e659f-776f-467b-a341-f0f290cbc8c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 369.57 0)
+			(at 196.85 369.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16169,7 +16169,7 @@
 	)
 	(global_label "TH_PWM"
 		(shape bidirectional)
-		(at 193.04 377.19 180)
+		(at 196.85 377.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16178,7 +16178,7 @@
 		)
 		(uuid "e217596e-22b0-410f-a71e-89ab01bc3ffb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 377.19 0)
+			(at 196.85 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16189,7 +16189,7 @@
 	)
 	(global_label "PWR_EN"
 		(shape bidirectional)
-		(at 193.04 384.81 180)
+		(at 196.85 384.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16198,7 +16198,7 @@
 		)
 		(uuid "e4dbc56d-88ab-4b92-912a-74c886ca0bc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 384.81 0)
+			(at 196.85 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16293,7 +16293,7 @@
 	)
 	(global_label "PWR_GOOD"
 		(shape bidirectional)
-		(at 193.04 382.27 180)
+		(at 196.85 382.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16302,7 +16302,7 @@
 		)
 		(uuid "ee1979b4-8e6a-4b64-8f0d-7fc2e87a25e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 382.27 0)
+			(at 196.85 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16697,7 +16697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "0"
 			(at 219.71 213.36 90)
 			(effects
 				(font
@@ -16766,7 +16766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "0"
 			(at 219.71 246.38 90)
 			(effects
 				(font
@@ -17168,7 +17168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "0"
 			(at 219.71 238.76 90)
 			(effects
 				(font
@@ -17221,7 +17221,7 @@
 	)
 	(symbol
 		(lib_id "FrameworkG-easyedapro:Res")
-		(at 217.17 382.27 180)
+		(at 207.01 382.27 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17229,7 +17229,7 @@
 		(dnp no)
 		(uuid "1048da2e-8d64-4c92-9270-eade1eec55a7")
 		(property "Reference" "R63"
-			(at 217.17 379.73 90)
+			(at 207.01 379.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17238,7 +17238,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 219.71 381 90)
+			(at 209.55 381 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17247,7 +17247,7 @@
 			)
 		)
 		(property "Footprint" "TinkerForge:0603"
-			(at 217.17 382.27 0)
+			(at 207.01 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17256,7 +17256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 382.27 0)
+			(at 207.01 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17265,7 +17265,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 382.27 0)
+			(at 207.01 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17290,7 +17290,7 @@
 	)
 	(symbol
 		(lib_id "FrameworkG-easyedapro:Res")
-		(at 217.17 367.03 180)
+		(at 207.01 367.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17298,7 +17298,7 @@
 		(dnp no)
 		(uuid "110eec5c-61a9-4228-9e57-ad7bfc3bf738")
 		(property "Reference" "R55"
-			(at 217.17 364.49 90)
+			(at 207.01 364.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17307,7 +17307,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 219.71 365.76 90)
+			(at 209.55 365.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17316,7 +17316,7 @@
 			)
 		)
 		(property "Footprint" "TinkerForge:0603"
-			(at 217.17 367.03 0)
+			(at 207.01 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17325,7 +17325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 367.03 0)
+			(at 207.01 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17334,7 +17334,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 367.03 0)
+			(at 207.01 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17709,7 +17709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "0"
 			(at 219.71 228.6 90)
 			(effects
 				(font
@@ -17962,7 +17962,7 @@
 	)
 	(symbol
 		(lib_id "FrameworkG-easyedapro:Res")
-		(at 217.17 379.73 180)
+		(at 207.01 379.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17970,7 +17970,7 @@
 		(dnp no)
 		(uuid "33750790-f9a6-4d37-9357-cb95fae4f863")
 		(property "Reference" "R62"
-			(at 217.17 377.19 90)
+			(at 207.01 377.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17979,7 +17979,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 219.71 378.46 90)
+			(at 209.55 378.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17988,7 +17988,7 @@
 			)
 		)
 		(property "Footprint" "TinkerForge:0603"
-			(at 217.17 379.73 0)
+			(at 207.01 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17997,7 +17997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 379.73 0)
+			(at 207.01 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18006,7 +18006,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 379.73 0)
+			(at 207.01 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18297,7 +18297,7 @@
 	)
 	(symbol
 		(lib_id "FrameworkG-easyedapro:Res")
-		(at 217.17 374.65 180)
+		(at 207.01 374.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18305,7 +18305,7 @@
 		(dnp no)
 		(uuid "3f7298f8-1ebe-4ca2-bfe0-f4e1d827bc66")
 		(property "Reference" "R60"
-			(at 217.17 372.11 90)
+			(at 207.01 372.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18314,7 +18314,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 219.71 373.38 90)
+			(at 209.55 373.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18323,7 +18323,7 @@
 			)
 		)
 		(property "Footprint" "TinkerForge:0603"
-			(at 217.17 374.65 0)
+			(at 207.01 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18332,7 +18332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 374.65 0)
+			(at 207.01 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18341,7 +18341,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 374.65 0)
+			(at 207.01 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18373,7 +18373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42f266a5-8dcd-460e-96a1-144b581502ed")
-		(property "Reference" "R6"
+		(property "Reference" "C3"
 			(at 210.82 140.97 90)
 			(effects
 				(font
@@ -18427,7 +18427,7 @@
 		(instances
 			(project "FrameworkGPU to MXM v0.5"
 				(path "/be1993b6-80e9-40e8-b677-a74fa72bce15"
-					(reference "R6")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -18516,7 +18516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "0"
 			(at 219.71 236.22 90)
 			(effects
 				(font
@@ -18711,7 +18711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46d8823e-1b16-4716-b8f2-0795fe9354c9")
-		(property "Reference" "R14"
+		(property "Reference" "C7"
 			(at 210.82 161.29 90)
 			(effects
 				(font
@@ -18765,7 +18765,7 @@
 		(instances
 			(project "FrameworkGPU to MXM v0.5"
 				(path "/be1993b6-80e9-40e8-b677-a74fa72bce15"
-					(reference "R14")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -18840,7 +18840,7 @@
 	)
 	(symbol
 		(lib_id "FrameworkG-easyedapro:Res")
-		(at 217.17 369.57 180)
+		(at 207.01 369.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18848,7 +18848,7 @@
 		(dnp no)
 		(uuid "4fa4b79b-2623-4af7-9b20-18c9563ebbf8")
 		(property "Reference" "R56"
-			(at 217.17 367.03 90)
+			(at 207.01 367.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18857,7 +18857,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 219.71 368.3 90)
+			(at 209.55 368.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18866,7 +18866,7 @@
 			)
 		)
 		(property "Footprint" "TinkerForge:0603"
-			(at 217.17 369.57 0)
+			(at 207.01 369.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18875,7 +18875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 369.57 0)
+			(at 207.01 369.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18884,7 +18884,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 369.57 0)
+			(at 207.01 369.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19179,7 +19179,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 209.55 367.03 0)
+		(at 223.52 367.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19187,7 +19187,7 @@
 		(dnp no)
 		(uuid "555bd235-a18b-41ef-9142-775022db369a")
 		(property "Reference" "TP22"
-			(at 209.55 358.14 90)
+			(at 223.52 358.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19196,7 +19196,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 207.01 362.4581 0)
+			(at 220.98 362.4581 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19206,7 +19206,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 214.63 367.03 0)
+			(at 228.6 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19215,7 +19215,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 367.03 0)
+			(at 228.6 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19224,7 +19224,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 209.55 367.03 0)
+			(at 223.52 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19314,7 +19314,7 @@
 	)
 	(symbol
 		(lib_id "FrameworkG-easyedapro:Res")
-		(at 217.17 372.11 180)
+		(at 207.01 372.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19322,7 +19322,7 @@
 		(dnp no)
 		(uuid "581396a4-d499-4b10-8023-d9391ac3a6f7")
 		(property "Reference" "R59"
-			(at 217.17 369.57 90)
+			(at 207.01 369.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19331,7 +19331,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 219.71 370.84 90)
+			(at 209.55 370.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19340,7 +19340,7 @@
 			)
 		)
 		(property "Footprint" "TinkerForge:0603"
-			(at 217.17 372.11 0)
+			(at 207.01 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19349,7 +19349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 372.11 0)
+			(at 207.01 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19358,7 +19358,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 372.11 0)
+			(at 207.01 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19455,7 +19455,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a09cb36-ceae-499f-9347-96c804ecb07a")
-		(property "Reference" "R4"
+		(property "Reference" "C2"
 			(at 210.82 135.89 90)
 			(effects
 				(font
@@ -19509,7 +19509,7 @@
 		(instances
 			(project "FrameworkGPU to MXM v0.5"
 				(path "/be1993b6-80e9-40e8-b677-a74fa72bce15"
-					(reference "R4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -19533,7 +19533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "0"
 			(at 219.71 220.98 90)
 			(effects
 				(font
@@ -19593,7 +19593,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b311093-d06e-4994-ac40-72cf8c3610da")
-		(property "Reference" "R13"
+		(property "Reference" "C15"
 			(at 218.44 158.75 90)
 			(effects
 				(font
@@ -19647,7 +19647,7 @@
 		(instances
 			(project "FrameworkGPU to MXM v0.5"
 				(path "/be1993b6-80e9-40e8-b677-a74fa72bce15"
-					(reference "R13")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -19722,7 +19722,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 209.55 379.73 0)
+		(at 223.52 379.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19730,7 +19730,7 @@
 		(dnp no)
 		(uuid "5df7d473-f6e7-4cff-ba4b-f92e919166c9")
 		(property "Reference" "TP27"
-			(at 209.55 370.84 90)
+			(at 223.52 370.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19739,7 +19739,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 207.01 375.1581 0)
+			(at 220.98 375.1581 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19749,7 +19749,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 214.63 379.73 0)
+			(at 228.6 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19758,7 +19758,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 379.73 0)
+			(at 228.6 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19767,7 +19767,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 209.55 379.73 0)
+			(at 223.52 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20126,7 +20126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "0"
 			(at 219.71 231.14 90)
 			(effects
 				(font
@@ -20179,7 +20179,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 206.9247 369.57 0)
+		(at 220.8947 369.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20187,7 +20187,7 @@
 		(dnp no)
 		(uuid "724f18e5-3eb9-4454-9b35-d4499d288d96")
 		(property "Reference" "TP23"
-			(at 206.9247 360.68 90)
+			(at 220.8947 360.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20196,7 +20196,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 204.3847 364.9981 0)
+			(at 218.3547 364.9981 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20206,7 +20206,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 212.0047 369.57 0)
+			(at 225.9747 369.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20215,7 +20215,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.0047 369.57 0)
+			(at 225.9747 369.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20224,7 +20224,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 206.9247 369.57 0)
+			(at 220.8947 369.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20498,7 +20498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7985d750-8f14-4c73-b94e-f06f4adb8a2d")
-		(property "Reference" "R11"
+		(property "Reference" "C14"
 			(at 218.44 153.67 90)
 			(effects
 				(font
@@ -20552,7 +20552,7 @@
 		(instances
 			(project "FrameworkGPU to MXM v0.5"
 				(path "/be1993b6-80e9-40e8-b677-a74fa72bce15"
-					(reference "R11")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -20567,7 +20567,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7cd23854-97a3-4ec8-aea7-e6f4f71a3200")
-		(property "Reference" "R1"
+		(property "Reference" "C1"
 			(at 210.82 130.81 90)
 			(effects
 				(font
@@ -20621,7 +20621,7 @@
 		(instances
 			(project "FrameworkGPU to MXM v0.5"
 				(path "/be1993b6-80e9-40e8-b677-a74fa72bce15"
-					(reference "R1")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -20629,7 +20629,7 @@
 	)
 	(symbol
 		(lib_id "FrameworkG-easyedapro:Res")
-		(at 217.17 377.19 180)
+		(at 207.01 377.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20637,7 +20637,7 @@
 		(dnp no)
 		(uuid "7d3709d2-0f3a-489b-9b66-9114c1b35b47")
 		(property "Reference" "R61"
-			(at 217.17 374.65 90)
+			(at 207.01 374.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20646,7 +20646,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 219.71 375.92 90)
+			(at 209.55 375.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20655,7 +20655,7 @@
 			)
 		)
 		(property "Footprint" "TinkerForge:0603"
-			(at 217.17 377.19 0)
+			(at 207.01 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20664,7 +20664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 377.19 0)
+			(at 207.01 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20673,7 +20673,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 377.19 0)
+			(at 207.01 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20781,7 +20781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "0"
 			(at 219.71 215.9 90)
 			(effects
 				(font
@@ -20919,7 +20919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "0"
 			(at 219.71 243.84 90)
 			(effects
 				(font
@@ -20972,7 +20972,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 207.0037 382.27 0)
+		(at 220.9737 382.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20980,7 +20980,7 @@
 		(dnp no)
 		(uuid "890869ff-393f-4ede-9a61-050a052658e9")
 		(property "Reference" "TP28"
-			(at 207.0037 373.38 90)
+			(at 220.9737 373.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20989,7 +20989,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 204.4637 377.6981 0)
+			(at 218.4337 377.6981 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20999,7 +20999,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 212.0837 382.27 0)
+			(at 226.0537 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21008,7 +21008,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.0837 382.27 0)
+			(at 226.0537 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21017,7 +21017,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 207.0037 382.27 0)
+			(at 220.9737 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21113,7 +21113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a91c54d-b136-4607-a429-288864ee8897")
-		(property "Reference" "R3"
+		(property "Reference" "C9"
 			(at 218.44 128.27 90)
 			(effects
 				(font
@@ -21167,7 +21167,7 @@
 		(instances
 			(project "FrameworkGPU to MXM v0.5"
 				(path "/be1993b6-80e9-40e8-b677-a74fa72bce15"
-					(reference "R3")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -21378,7 +21378,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 199.2619 377.19 0)
+		(at 213.2319 377.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21386,7 +21386,7 @@
 		(dnp no)
 		(uuid "92e221b1-e85e-4f66-a8f1-f40743df8eb2")
 		(property "Reference" "TP26"
-			(at 199.2619 368.3 90)
+			(at 213.2319 368.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21395,7 +21395,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 196.7219 372.6181 0)
+			(at 210.6919 372.6181 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21405,7 +21405,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 204.3419 377.19 0)
+			(at 218.3119 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21414,7 +21414,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.3419 377.19 0)
+			(at 218.3119 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21423,7 +21423,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 199.2619 377.19 0)
+			(at 213.2319 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21528,7 +21528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "0"
 			(at 219.71 208.28 90)
 			(effects
 				(font
@@ -21588,7 +21588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9480eb39-7e94-4bcd-a53d-fd3a18f1ff76")
-		(property "Reference" "R15"
+		(property "Reference" "C16"
 			(at 218.44 163.83 90)
 			(effects
 				(font
@@ -21642,7 +21642,7 @@
 		(instances
 			(project "FrameworkGPU to MXM v0.5"
 				(path "/be1993b6-80e9-40e8-b677-a74fa72bce15"
-					(reference "R15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -21666,7 +21666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "0"
 			(at 219.71 233.68 90)
 			(effects
 				(font
@@ -22631,7 +22631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "0"
 			(at 219.71 218.44 90)
 			(effects
 				(font
@@ -23520,7 +23520,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa42fb1e-2505-4574-a6d2-bce6dab6d25a")
-		(property "Reference" "R2"
+		(property "Reference" "C10"
 			(at 218.44 133.35 90)
 			(effects
 				(font
@@ -23574,7 +23574,7 @@
 		(instances
 			(project "FrameworkGPU to MXM v0.5"
 				(path "/be1993b6-80e9-40e8-b677-a74fa72bce15"
-					(reference "R2")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -23924,7 +23924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8584acf-7984-4303-8caa-015529009af7")
-		(property "Reference" "R5"
+		(property "Reference" "C11"
 			(at 218.44 138.43 90)
 			(effects
 				(font
@@ -23978,7 +23978,7 @@
 		(instances
 			(project "FrameworkGPU to MXM v0.5"
 				(path "/be1993b6-80e9-40e8-b677-a74fa72bce15"
-					(reference "R5")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -24125,7 +24125,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd7d60d6-6a36-467b-ac61-fbc3c54133bd")
-		(property "Reference" "R8"
+		(property "Reference" "C4"
 			(at 210.82 146.05 90)
 			(effects
 				(font
@@ -24179,7 +24179,7 @@
 		(instances
 			(project "FrameworkGPU to MXM v0.5"
 				(path "/be1993b6-80e9-40e8-b677-a74fa72bce15"
-					(reference "R8")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -24263,7 +24263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c41e4c3d-77f5-43c5-a036-4c0500f2a50e")
-		(property "Reference" "R9"
+		(property "Reference" "C13"
 			(at 218.44 148.59 90)
 			(effects
 				(font
@@ -24317,7 +24317,7 @@
 		(instances
 			(project "FrameworkGPU to MXM v0.5"
 				(path "/be1993b6-80e9-40e8-b677-a74fa72bce15"
-					(reference "R9")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -24473,7 +24473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "0"
 			(at 219.71 241.3 90)
 			(effects
 				(font
@@ -24591,7 +24591,7 @@
 	)
 	(symbol
 		(lib_id "FrameworkG-easyedapro:Res")
-		(at 217.17 384.81 180)
+		(at 207.01 384.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24599,7 +24599,7 @@
 		(dnp no)
 		(uuid "c7f8cfd5-968a-495e-a430-8965a3f13e2d")
 		(property "Reference" "R64"
-			(at 217.17 382.27 90)
+			(at 207.01 382.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24608,7 +24608,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 219.71 383.54 90)
+			(at 209.55 383.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24617,7 +24617,7 @@
 			)
 		)
 		(property "Footprint" "TinkerForge:0603"
-			(at 217.17 384.81 0)
+			(at 207.01 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24626,7 +24626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 384.81 0)
+			(at 207.01 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24635,7 +24635,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 384.81 0)
+			(at 207.01 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24660,7 +24660,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 204.47 372.11 0)
+		(at 218.44 372.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24668,7 +24668,7 @@
 		(dnp no)
 		(uuid "c9a7ddf4-d81e-46bb-bf98-891d7bf1fddf")
 		(property "Reference" "TP24"
-			(at 204.47 363.22 90)
+			(at 218.44 363.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24677,7 +24677,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 201.93 367.5381 0)
+			(at 215.9 367.5381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24687,7 +24687,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 209.55 372.11 0)
+			(at 223.52 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24696,7 +24696,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 372.11 0)
+			(at 223.52 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24705,7 +24705,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 204.47 372.11 0)
+			(at 218.44 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25443,7 +25443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "0"
 			(at 219.71 226.06 90)
 			(effects
 				(font
@@ -26306,7 +26306,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e47bad65-fc36-441b-ad60-f351e136989a")
-		(property "Reference" "R12"
+		(property "Reference" "C6"
 			(at 210.82 156.21 90)
 			(effects
 				(font
@@ -26360,7 +26360,7 @@
 		(instances
 			(project "FrameworkGPU to MXM v0.5"
 				(path "/be1993b6-80e9-40e8-b677-a74fa72bce15"
-					(reference "R12")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -26368,7 +26368,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 201.93 374.65 0)
+		(at 215.9 374.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26376,7 +26376,7 @@
 		(dnp no)
 		(uuid "e7a0422b-97ce-4de0-9519-0c80fcf0e4d1")
 		(property "Reference" "TP25"
-			(at 201.93 365.76 90)
+			(at 215.9 365.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26385,7 +26385,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 199.39 370.0781 0)
+			(at 213.36 370.0781 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26395,7 +26395,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 207.01 374.65 0)
+			(at 220.98 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26404,7 +26404,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 374.65 0)
+			(at 220.98 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26413,7 +26413,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 201.93 374.65 0)
+			(at 215.9 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26442,7 +26442,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9b94187-cb05-466b-988d-45aa736eb5a2")
-		(property "Reference" "R7"
+		(property "Reference" "C12"
 			(at 218.44 143.51 90)
 			(effects
 				(font
@@ -26496,7 +26496,7 @@
 		(instances
 			(project "FrameworkGPU to MXM v0.5"
 				(path "/be1993b6-80e9-40e8-b677-a74fa72bce15"
-					(reference "R7")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -26511,7 +26511,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eaa8dd4c-870a-49e6-978d-74e23fa7e943")
-		(property "Reference" "R10"
+		(property "Reference" "C5"
 			(at 210.82 151.13 90)
 			(effects
 				(font
@@ -26565,7 +26565,7 @@
 		(instances
 			(project "FrameworkGPU to MXM v0.5"
 				(path "/be1993b6-80e9-40e8-b677-a74fa72bce15"
-					(reference "R10")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -26638,7 +26638,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 204.47 384.81 0)
+		(at 218.44 384.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26646,7 +26646,7 @@
 		(dnp no)
 		(uuid "f1411b65-14b6-48c3-9d5c-a5432d3cc72e")
 		(property "Reference" "TP29"
-			(at 204.47 375.92 90)
+			(at 218.44 375.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26655,7 +26655,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 201.93 380.2381 0)
+			(at 215.9 380.2381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26665,7 +26665,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 209.55 384.81 0)
+			(at 223.52 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26674,7 +26674,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 384.81 0)
+			(at 223.52 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26683,7 +26683,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 204.47 384.81 0)
+			(at 218.44 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26843,10 +26843,10 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "f4de43b0-7bd3-40d3-805f-bcb85f355bae")
-		(property "Reference" "R16"
+		(property "Reference" "C8"
 			(at 210.82 166.37 90)
 			(effects
 				(font
@@ -26900,7 +26900,7 @@
 		(instances
 			(project "FrameworkGPU to MXM v0.5"
 				(path "/be1993b6-80e9-40e8-b677-a74fa72bce15"
-					(reference "R16")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -26992,7 +26992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "0"
 			(at 219.71 210.82 90)
 			(effects
 				(font
@@ -27259,7 +27259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "0"
 			(at 219.71 223.52 90)
 			(effects
 				(font
